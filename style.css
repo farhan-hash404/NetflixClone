@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: linear-gradient(rgba(5,5,5,0.8),rgba(5,5,5,0.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/d9994a82-98b4-4499-8d74-5f52285f423e/PK-en-20240107-trifectadaily-perspective_alpha_website_large.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 11rem;
+    height: 123vh;
+    
+}
+
+
+
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.704);
+}
+#logo{
+    width: 15%;
+}
+#signin{
+    background-color: rgb(205, 42, 42);
+    color: aliceblue;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    width: 92px;
+    font-size: 14px;
+    margin-top: 23px;
+    
+}
+#signin:hover{
+    background-color: rgb(190, 70, 70);
+    color: aliceblue;
+    padding: 12px;
+    border: 1px solid rgba(101, 68, 68, 0);
+    border-radius: 6px;
+    width: 92px;
+    font-size: 14px;
+    margin-top: 23px;
+    transition: 0.5sec;
+    
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+}
+h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+h3{
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.emailportion{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+#getstarted{
+    background-color: rgb(255, 30, 30);
+    width: 164px;
+    height: 53px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    font-size: larger;
+}
+.email input{
+    width: 464px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.588);
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 22px;
+}
+.body2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height:113vh ;
+}
+.body3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height:113vh ;
+    font-family: sans-serif;
+
+}
+
+h4{
+font-size: 3rem;
+
+}
+.head{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+background-color: black;
+height: 123vh;
+gap: 2.7rem;
+}
+.container1{
+    background-color: rgba(56, 49, 49, 0.805);
+    width: 70%;
+    height: 3vh;
+    color: white;
+    padding: 32px;
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+
+}
+.container1:hover{
+    background-color: rgba(71, 57, 57, 0.805);
+    width: 70%;
+    height: 3vh;
+    color: rgb(86, 81, 81);
+    padding: 32px;
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60vh;
+    background-color: black;
+    color: bisque;
+    text-decoration: none;
+    background-color: black;
+    border-bottom: 2px 3px 4px 2px;
+
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 22px;
+    background-color: black;
+
+}
+.footer1 a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+#h11{
+    color: white;
+    font-size: 1.4rem;
+
+}
+
+
